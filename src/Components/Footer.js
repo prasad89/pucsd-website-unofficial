@@ -15,7 +15,7 @@ const Footer = () => {
           </Link>
         </p>
         <p>
-          <Link href="https://github.com/prasad89/pucsd-website">
+          <Link href="https://github.com/prasad89/pucsd-website-unofficial">
             <a className="text-secondary">Github Respository</a>
           </Link>
         </p>
