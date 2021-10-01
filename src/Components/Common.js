@@ -1,3 +1,5 @@
+import Sidebar from "../Components/Sidebar";
+
 const Common = (props) => {
   return (
     <>
@@ -6,10 +8,13 @@ const Common = (props) => {
           <div className="row">
             <div className="col-10 mx-auto">
               <div className="row">
-                <div className="col-md-8 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                <div className="col-md-8 pt-5 pt-lg-0 d-flex flex-column">
                   <h1>{props.heading}</h1>
                   <hr />
                   <p>{props.paragraph}</p>
+                </div>
+                <div className="col-lg-4 sidebar">
+                  <Sidebar />
                 </div>
               </div>
             </div>
